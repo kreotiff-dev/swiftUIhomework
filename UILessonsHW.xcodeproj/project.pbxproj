@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A2E93EE222DF3E400027DC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A2E93ED222DF3E400027DC3 /* Main.storyboard */; };
-		1A2E93F0222DF47B00027DC3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2E93EF222DF47B00027DC3 /* LoginViewController.swift */; };
-		1A2E93F1222DF47B00027DC3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2E93EF222DF47B00027DC3 /* LoginViewController.swift */; };
-		1A2E93F2222DF47B00027DC3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2E93EF222DF47B00027DC3 /* LoginViewController.swift */; };
 		1AA27594222AD566003F31DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA27593222AD566003F31DB /* AppDelegate.swift */; };
 		1AA27599222AD566003F31DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AA27597222AD566003F31DB /* Main.storyboard */; };
 		1AA2759B222AD568003F31DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AA2759A222AD568003F31DB /* Assets.xcassets */; };
@@ -38,8 +34,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A2E93ED222DF3E400027DC3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../../../../../../../../../Desktop/GeekBrains_Swiftp2/UIlessons/Main.storyboard; sourceTree = "<group>"; };
-		1A2E93EF222DF47B00027DC3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../../../../../../../../../../../../Desktop/GeekBrains_Swiftp2/UIlessons/LoginViewController.swift; sourceTree = "<group>"; };
 		1AA27590222AD566003F31DB /* UILessonsHW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UILessonsHW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AA27593222AD566003F31DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AA27598222AD566003F31DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -83,7 +77,6 @@
 		1AA27587222AD566003F31DB = {
 			isa = PBXGroup;
 			children = (
-				1A2E93ED222DF3E400027DC3 /* Main.storyboard */,
 				1AA27592222AD566003F31DB /* UILessonsHW */,
 				1AA275A7222AD568003F31DB /* UILessonsHWTests */,
 				1AA275B2222AD568003F31DB /* UILessonsHWUITests */,
@@ -110,7 +103,6 @@
 				1AA2759C222AD568003F31DB /* LaunchScreen.storyboard */,
 				1AA2759F222AD568003F31DB /* Info.plist */,
 				1AA275C1222AD8CC003F31DB /* LoginViewController.swift */,
-				1A2E93EF222DF47B00027DC3 /* LoginViewController.swift */,
 			);
 			path = UILessonsHW;
 			sourceTree = "<group>";
@@ -240,7 +232,6 @@
 				1AA2759E222AD568003F31DB /* LaunchScreen.storyboard in Resources */,
 				1AA2759B222AD568003F31DB /* Assets.xcassets in Resources */,
 				1AA27599222AD566003F31DB /* Main.storyboard in Resources */,
-				1A2E93EE222DF3E400027DC3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +256,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A2E93F0222DF47B00027DC3 /* LoginViewController.swift in Sources */,
 				1AA275C2222AD8CC003F31DB /* LoginViewController.swift in Sources */,
 				1AA27594222AD566003F31DB /* AppDelegate.swift in Sources */,
 			);
@@ -275,7 +265,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A2E93F1222DF47B00027DC3 /* LoginViewController.swift in Sources */,
 				1AA275A9222AD568003F31DB /* UILessonsHWTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,7 +273,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A2E93F2222DF47B00027DC3 /* LoginViewController.swift in Sources */,
 				1AA275B4222AD569003F31DB /* UILessonsHWUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
